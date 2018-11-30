@@ -217,6 +217,31 @@ img {
 	display: none;
 }
 
+button {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 25px;
+	margin: 20px 0px;
+	font-family: arial;
+	font-size: 30px;
+	font-weight: 700px;
+	color: #fff;
+	background-color: #008aff;
+	border: none;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 7px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 @media print {
 
 	main, footer {
@@ -227,7 +252,10 @@ img {
 		display: block;
 		width: 100%;
 	}
-}
+	
+	button {
+		display: none;
+	}
 @media only screen and (max-width: 600px) {
     .div-full-profile {
         display: block;
