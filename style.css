@@ -228,3 +228,14 @@ img {
 		width: 100%;
 	}
 }
+@media only screen and (max-width: 600px) {
+    .div-full-profile {
+        display: block;
+    }
+    .div-left-profile {
+	width: 100%;
+    }
+    .div-right-profile {
+	width: 100%;
+    }
+}
