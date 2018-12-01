@@ -258,7 +258,7 @@ button:active {
 	}
 @media only screen and (max-width: 600px) {
     .div-full-profile {
-        display: inline-block;
+        display: block;
     }
     .div-left-profile {
 	width: 100%;
