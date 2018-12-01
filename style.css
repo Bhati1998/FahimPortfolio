@@ -14,7 +14,6 @@ body {
 }
 
 .div-left-profile {
-	display: block;
 	height: fit-content;
 	width: 33%;
 	margin: 0 8px;
@@ -131,7 +130,6 @@ hr {
 }
 
 .div-right-profile {
-	display: block;
 	height: fit-content;
 	width: 66%;
 	margin: 0px 8px;
@@ -201,7 +199,7 @@ footer p {
 	font-family: arial;
 	font-size: 15px;
 	padding: 10px 0px;
-	color: white;
+	color: #fff;
 }
 
 
@@ -254,13 +252,14 @@ button:active {
 		display: block;
 		width: 100%;
 	}
-	
 	button {
 		display: none;
 	}
+}
+
 @media only screen and (max-width: 600px) {
     .div-full-profile {
-        display: block;
+	display: block;
     }
     .div-left-profile {
 	width: 100%;
